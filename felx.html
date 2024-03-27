@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .all {
+            display: flex;
+            height: 70px;
+            gap: 30px;
+            max-width: 1000px;
+        }
+
+        .div1 {
+            background-color: lightblue;
+            width: 250px;
+        }
+
+        .div2 {
+            background-color: lightpink;
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .div3 {
+            background-color: lightblue;
+            width: 200px;
+        }
+        .sidebar{
+            background-color: aqua;
+            position: fixed;
+            width: 70px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="div1" style="margin-left: 90px;">div1</div>
+        <div class="div2">div2</div>
+        <div class="div3">div3</div>
+
+    </div>
+
+    <div class="sidebar">
+        sidebar
+
+    </div>
+</body>
+
+</html>
