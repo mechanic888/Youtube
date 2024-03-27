@@ -1,0 +1,12 @@
+<input type="text" class="name" name="name" placeholder="Name" style="display: block; ">
+
+<input type="text" class="email" name="email" placeholder="Email" style="display: block;">
+
+<style>
+    .name {
+
+        color: black;
+
+        place-content: red;
+    }
+</style>

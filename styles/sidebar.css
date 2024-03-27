@@ -1,0 +1,28 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    width: 60px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 200;
+    margin-top: 70px;
+}
+
+.d1{
+    height: 84px;
+    width: 60px; /* Ensure the width matches the sidebar for alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.d1:hover{
+    background-color: lightblue;
+}

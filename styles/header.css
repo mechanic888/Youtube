@@ -1,0 +1,126 @@
+
+
+
+.header {
+    display: flex;
+    z-index: 100;
+    display: fixed;
+
+}
+
+.left {
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.right {
+    width: 220px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.r1,
+.r2,
+.r3,
+.r4 {
+    width: 28px;
+}
+
+.r3 {
+    position: relative;
+
+}
+
+.rr3 {
+    background-color: rgb(183, 5, 5);
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 13px;
+    border-radius: 100px;
+    margin-top: -2px;
+    margin-right: -3px;
+
+
+
+}
+
+.p5 {
+    width: 100%;
+}
+
+.middle {
+    flex: 1;
+
+    align-items: center;
+    display: flex;
+}
+
+.p1 {
+    width: 24px
+}
+
+.p2 {
+
+    height: 20px;
+    margin-left: 42px;
+}
+
+.p3 {
+    width: 24px
+}
+
+.p4 {
+    width: 24px
+}
+
+.search-bar {
+    width: 90%;
+    height: 30px
+}
+
+.m1 {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+}
+
+.m2 {
+    width: 24px;
+    margin-left: -30px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.m3 {
+    width: 24px;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.search,
+.voice-search {
+    position: absolute;
+    bottom: -3;
+    background-color: gray;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.m2:hover .search {
+ opacity: 1;
+}
